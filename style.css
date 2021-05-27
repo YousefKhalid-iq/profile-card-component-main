@@ -59,7 +59,7 @@ main {
 .header-name {
   padding-top: 10px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .header-name span {
@@ -67,7 +67,7 @@ main {
 }
 
 .city-name {
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px 0;
   font-weight: 400;
   color: grey;
@@ -84,6 +84,14 @@ main {
   text-align: center;
   color: grey;
   letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 10px;
 }
 
 .attribution { 
