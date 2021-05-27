@@ -1,13 +1,96 @@
 * {
   margin:  0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("images/bg-pattern-top.svg"),  url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cover-image-container {
+  background: white;
+  max-width: 350px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.cover-image {
+  width: 100%;
+  display: block;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: #C1C1C1;
+}
+
+.victor-image {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  background-color: white;
+  margin-top: -53px;
+}
+
+.secondary-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px;
+  padding-top: 20px;
+  padding-right: 28px;
+}
+
+.header-name {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.header-name span {
+  color: grey;
+}
+
+.city-name {
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: 400;
+  color: grey;
+}
+
+.number-items {
+  padding: 10px 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.word-items {
+  padding-bottom: 10px;
+  text-align: center;
+  color: grey;
+  letter-spacing: 1px;
 }
 
 .attribution { 
   font-size: 11px; text-align: center; 
+  padding: 10px 0px;
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: grey; 
 }
